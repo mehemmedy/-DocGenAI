@@ -7,24 +7,26 @@
     <link href="src/output.css" rel="stylesheet">
     <link rel="shortcut icon" href="/img/logo.svg" type="image/x-icon">
     <title>AI Legal Document Generator | Global Legal Documents</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <header class="bg-[#0b0b0b] opacity-95 w-full fixed ">
-        <div class="container justify-around px-5 flex p-2 items-center  bg-transparent">
+    <header class="bg-[#0b0b0b] opacity-95 w-full fixed overflow-hidden">
+        <div class="container justify-between xl:px-40 md:px-20 lg:px-30 px-1 flex p-2 items-center  bg-transparent">
             <div class="flex">
-                <img class="size-7" src="img/logo.svg" alt="">
+                <img class="size-7 sm:block hidden" src="img/logo.svg" alt="">
                 <p class="font-bold text-[20px] pl-2 text-white">DocGenAI</p>
             </div>
-            <div class=" flex gap-7 p-2 text-[#a3a3a3]">
+            <div class="md:flex  hidden gap-7 p-2 text-[#a3a3a3]">
                 <p class="hover:text-white cursor-pointer">How It Works</p>
                 <p class="hover:text-white cursor-pointer">Documents</p>
                 <p class="hover:text-white cursor-pointer">Pricing</p>
             </div>
-            <div class="p-2 font-semibold gap-4 flex">
+            <div class="flex p-2 font-semibold gap-4 ">
                 <button class="text-white">Sign In</button>
                 <button class="text-white bg-[#e03e29] py-1.5 px-4 rounded-xl">Sign Up</button>
             </div>
+            
         </div>
     </header>
     <main class="overflow-hidden">
@@ -462,65 +464,72 @@
             </div>
 
         </section>
-        <section class="bg-[#0b0b0b] py-20">
-            <div class="container w-[90%] mx-auto">
-                <h2 class="text-4xl xl:text-5xl text-white text-center font-bold">Frequently Asked Questions</h2>
-                <p class="text-[#9e9e9e] text-center py-4 text-xl">Everything you need to know
-                </p>
-                <div class="cards flex flex-col gap-5 py-10">
-                    <div
-                        class="rounded-xl xl:w-[60%] xl:mx-auto bg-[#121212] text-white p-5 font-bold text-[16px] border-2 border-[#222]  hover:bg-[#303030] duration-300">
-                        <div class="flex justify-between items-center">
-                            <span>Is this legally binding?</span>
-                            <i class="fa-solid fa-angle-down text-[#f8442c]"></i>
-
-                        </div>
-                    </div>
-                    <div
-                        class="rounded-xl xl:w-[60%] xl:mx-auto bg-[#121212] text-white p-5 font-bold text-[16px] border-2 border-[#222]  hover:bg-[#303030] duration-300">
-                        <div class="flex justify-between items-center">
-                            <span>Can I customize documents?</span>
-                            <i class="fa-solid fa-angle-down text-[#f8442c]"></i>
-
-                        </div>
-                    </div>
-                    <div
-                        class="rounded-xl xl:w-[60%] xl:mx-auto bg-[#121212] text-white p-5 font-bold text-[16px] border-2 border-[#222]  hover:bg-[#303030] duration-300">
-                        <div class="flex justify-between items-center">
-                            <span>Is this US-specific?</span>
-                            <i class="fa-solid fa-angle-down text-[#f8442c]"></i>
-
-                        </div>
-                    </div>
-                    <div
-                        class="rounded-xl xl:w-[60%] xl:mx-auto bg-[#121212] text-white p-5 font-bold text-[16px] border-2 border-[#222]  hover:bg-[#303030] duration-300">
-                        <div class="flex justify-between items-center">
-                            <span>Can I cancel anytime?</span>
-                            <i class="fa-solid fa-angle-down text-[#f8442c]"></i>
-
-                        </div>
-                    </div>
-                    <div
-                        class="rounded-xl xl:w-[60%] xl:mx-auto bg-[#121212] text-white p-5 font-bold text-[16px] border-2 border-[#222]  hover:bg-[#303030] duration-300">
-                        <div class="flex justify-between items-center">
-                            <span>How long does generation take?</span>
-                            <i class="fa-solid fa-angle-down text-[#f8442c]"></i>
-
-                        </div>
-                    </div>
-                    <div
-                        class="rounded-xl xl:w-[60%] xl:mx-auto bg-[#121212] text-white p-5 font-bold text-[16px] border-2 border-[#222]  hover:bg-[#303030] duration-300">
-                        <div class="flex justify-between items-center">
-                            <span>Are my documents private?</span>
-                            <i class="fa-solid fa-angle-down text-[#f8442c]"></i>
-
-                        </div>
-                    </div>
-                </div>
-
+         <section class="py-32 bg-[#0b0b0b]">
+        <div class="container">
+          <div class="px-5 lg:px-0">
+            <div class="mb-20 text-center">
+              <h2 class="text-5xl sm:text-6xl font-black mb-6 text-white">
+                Frequently Asked Questions
+              </h2>
+              <p class="text-[20px] text-[#9e9e9e]">
+                Everything you need to know
+              </p>
             </div>
-
-        </section>
+            <div
+              class="max-w-3xl mx-auto flex flex-col items-center gap-5 lg:gap-6"
+            >
+              <div
+                class="w-full flex items-center justify-between p-6 bg-[#0b0b0b] rounded-2xl hover:bg-[#1c1c1c] duration-200 border border-gray-800"
+              >
+                <p class="text-white font-medium text-[16px]">
+                  Is this legally binding?
+                </p>
+                <i class="fa-solid fa-angle-down text-[#f8442c]"></i>
+              </div>
+              <div
+                class="w-full flex items-center justify-between p-6 bg-[#0b0b0b] rounded-2xl hover:bg-[#1c1c1c] duration-200 border border-gray-800"
+              >
+                <p class="text-white font-medium text-[16px]">
+                  Can I customize documents?
+                </p>
+                <i class="fa-solid fa-angle-down text-[#f8442c]"></i>
+              </div>
+              <div
+                class="w-full flex items-center justify-between p-6 bg-[#0b0b0b] rounded-2xl hover:bg-[#1c1c1c] duration-200 border border-gray-800"
+              >
+                <p class="text-white font-medium text-[16px]">
+                  Is this US-specific?
+                </p>
+                <i class="fa-solid fa-angle-down text-[#f8442c]"></i>
+              </div>
+              <div
+                class="w-full flex items-center justify-between p-6 bg-[#0b0b0b] rounded-2xl hover:bg-[#1c1c1c] duration-200 border border-gray-800"
+              >
+                <p class="text-white font-medium text-[16px]">
+                  Can I cancel anytime?
+                </p>
+                <i class="fa-solid fa-angle-down text-[#f8442c]"></i>
+              </div>
+              <div
+                class="w-full flex items-center justify-between p-6 bg-[#0b0b0b] rounded-2xl hover:bg-[#1c1c1c] duration-200 border border-gray-800"
+              >
+                <p class="text-white font-medium text-[16px]">
+                  How long does generation take?
+                </p>
+                <i class="fa-solid fa-angle-down text-[#f8442c]"></i>
+              </div>
+              <div
+                class="w-full flex items-center justify-between p-6 bg-[#0b0b0b] rounded-2xl hover:bg-[#1c1c1c] duration-200 border border-gray-800"
+              >
+                <p class="text-white font-medium text-[16px]">
+                  Are my documents private?
+                </p>
+                <i class="fa-solid fa-angle-down text-[#f8442c]"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
         <section class="bg-[#310e09] py-20">
             <div class="container w-[90%] mx-auto">
                 <div class="flex flex-col justify-center">
@@ -548,64 +557,62 @@
 
         </section>
     </main>
-    <footer class="py-10">
-        <div class="container w-[90%] mx-auto">
-            <div class="flex flex-col gap-5 md:grid grid-cols-4  md:gap-10">
-                <div class="f1">
-                    <div class="logo flex items-center gap-2">
-                        <img src="img/logo.svg" alt="logo" class="w-8">
-                        <span class="text-black font-[500]">DocGenAI</span>
-                    </div>
-                    <p class="text-[gray] text-sm py-3 ">AI Legal Document Generator for US businesses</p>
-
-                </div>
-                <div class="f2">
-                    <h4 class="font-[500] text-black text-lg pb-5 ">Product</h4>
-                    <ul class="text-[gray] flex flex-col gap-2 text-sm ">
-                        <li> How It Works
-
-                        </li>
-                        <li>Documents</li>
-                        <li>Pricing</li>
-                        <li>FAQ</li>
-                    </ul>
-
-                </div>
-                <div class="f2">
-                    <h4 class="font-[500] text-black text-lg pb-5 ">Company</h4>
-                    <ul class="text-[gray] flex flex-col gap-2 text-sm ">
-                        <li> About
-
-                        </li>
-                        <li>Blog</li>
-                        <li>Contact</li>
-                        <li>Careers</li>
-                    </ul>
-
-                </div>
-                <div class="f2">
-                    <h4 class="font-[500] text-black text-lg pb-5 ">Legal</h4>
-                    <ul class="text-[gray] flex flex-col gap-2 text-sm ">
-                        <li> Privacy Policy
-
-                        </li>
-                        <li>Terms of Service</li>
-                        <li>Disclaimer</li>
-                        <li>Contact Us</li>
-                    </ul>
-
-                </div>
-
+    <footer class="py-16">
+      <div class="container">
+        <div
+          class="max-w-6xl mx-auto px-5 lg:px-0 grid md:grid-cols-4 gap-8 mb-12"
+        >
+          <div>
+            <div class="flex items-center gap-3 mb-4">
+              <img
+                src="img/logo.svg"
+                alt="logo"
+                class="w-[25px]"
+              />
+              <span class="text-[20px] font-bold">DocGenAI</span>
             </div>
-            <hr class="border-0 bg-[gray] h-[0.5px] my-10">
-            <p class="text-[gray] text-center text-sm">© 2025 DocGenAI. All rights reserved. This tool does not replace a licensed attorney.
-Developed by Codescandy • Distributed by ThemeWagon</p>
-
-
-
+            <p class="text-[#525252] text-[14px]">
+              AI Legal Document Generator for US businesses
+            </p>
+          </div>
+          <div>
+            <h4 class="text-[16px] mb-4 font-bold">Product</h4>
+            <ul>
+              <li class="mb-2 text-[#525252] text-[14px]">How It Works</li>
+              <li class="mb-2 text-[#525252] text-[14px]">Documents</li>
+              <li class="mb-2 text-[#525252] text-[14px]">Pricing</li>
+              <li class="mb-2 text-[#525252] text-[14px]">FAQ</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-[16px] mb-4 font-bold">Company</h4>
+            <ul>
+              <li class="mb-2 text-[#525252] text-[14px]">About</li>
+              <li class="mb-2 text-[#525252] text-[14px]">Blog</li>
+              <li class="mb-2 text-[#525252] text-[14px]">Contact</li>
+              <li class="mb-2 text-[#525252] text-[14px]">Careers</li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-[16px] mb-4 font-bold">Legal</h4>
+            <ul>
+              <li class="mb-2 text-[#525252] text-[14px]">Privacy Policy</li>
+              <li class="mb-2 text-[#525252] text-[14px]">Terms of Service</li>
+              <li class="mb-2 text-[#525252] text-[14px]">Disclaimer</li>
+              <li class="mb-2 text-[#525252] text-[14px]">Contact Us</li>
+            </ul>
+          </div>
         </div>
-
-
+        <div class="text-center ">
+          <p class="pt-8 text-[#6a6a6a] text-[14px] border-t border-[#c8c8c8] max-w-[550px] text-center m-auto">
+            © 2025 DocGenAI. All rights reserved. This tool does not replace a
+            licensed attorney. Developed by
+            Codescandy
+            • Distributed by
+            ThemeWagon
+          </p>
+        </div>
+      </div>
     </footer>
     <span
         class="bg-[#f8442c] text-white font-bold py-4 px-6 fixed bottom-2 right-5 rounded-xl hover:bg-[#b03323] duration-300">Download
